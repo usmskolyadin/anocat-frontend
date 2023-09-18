@@ -1,0 +1,22 @@
+$secondary_bg_color: url("entity");
+$bg_color: url();
+$text-color: dark;
+$hint_color: dark;
+$link_color: dark;
+$button_text_color: dark;
+$button_color: dark;
+
+#root {
+  max-width: 886px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 886px) {
+  body {
+      
+      object-fit: cover;
+      background-image: url("../../assets/mywallpaper.jpg");
+  }
+}
